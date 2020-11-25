@@ -1,0 +1,91 @@
+.sol
+{
+	font-style: italic;
+	font-weight: bold;
+}
+body
+{
+	font-family: "Times New Roman", Arial, Serif , "Sans serif";
+	background-color: black;
+	color:white;
+	text-align:justify;
+	width: 100%;
+	margin:auto;
+}
+h1,h2,h3,h4
+{
+	margin-bottom: 15px;
+	color: brown;
+	text-decoration: underline;
+}
+.aligner{
+	display:flex;
+	justify-content:flex-start;
+}
+#foot{
+	display:flex;
+	justify-content: space-around;
+}
+.espace2{
+	margin-left:70px;
+
+}
+#espace{
+	margin-left:6px;
+	color:cyan;
+}
+section{
+
+	display:flex;
+	align-items:flex-start;
+	max-width: 95%;
+}
+.break{
+	min-width:200px;
+	word-wrap: break-word;
+	margin-left:30px;
+	border: 3px solid white;
+	padding:7px;
+}
+.recul{
+	margin-top:70px;
+	min-width:200px;
+	word-wrap: break-word;
+	margin-left:30px;
+	border: 3px solid white;
+	padding:7px;
+}
+header{
+	display:flex;
+	justify-content: space-between;
+	margin-right:250px;
+}
+a{
+	color:#fdeca6;
+}
+a:visited{
+	color:cyan;
+}
+.ecart{
+	margin-right:10px ;
+	margin-top: 10px;
+	min-width: 130px;
+}
+.espaceBottom{
+	margin-bottom: 10px;
+}
+header{
+	background: url("images/overlay.png");
+	min-width: 100%;
+	background-color: brown;
+	margin-bottom: 50px;
+}
+footer{
+	min-width: 100%;
+	background: url("images/overlay.png");
+	background-color: brown;
+}
+.miseEnPage{
+	margin-left: 140px;
+	padding-top:10px;
+}
