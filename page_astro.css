@@ -106,7 +106,7 @@ footer{
 	}
 
 	header,footer{
-	min-width:680px;
+	min-width:850px;
 	background: url("images/overlay.png");
 	background-color: brown;
 	}	
