@@ -89,3 +89,16 @@ footer{
 	margin-left: 140px;
 	padding-top:10px;
 }
+@media all and (max-device-width: 500px){
+	body{
+		min-width: 100%;
+	}
+
+	header,footer{
+	min-width:680px;
+	background: url("images/overlay.png");
+	background-color: brown;
+	}
+	
+	
+}
